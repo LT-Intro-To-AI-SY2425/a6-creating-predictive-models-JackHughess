@@ -6,9 +6,20 @@ After completing `a6_part4.py` answer the following questions
 
 1. Comment out the StandardScaler and re-run your test. How accurate is the model? Why is that?
 
+before varies from .8 to .9
+after varies from .77 to .88
+
+the scaler just makes sure all the data is weighted the same.
+
 2. How accurate is the model with the StandardScaler? Is this model accurate enough for the given use case? Explain.
+
+before varies from .8 to .9 because of train test split variation. I think that it is pretty accurate for use, but also I am not sure what they are using the prediction for so I can't say for sure.
+
 
 3. Looking at the predicted and actual results, how did the model do? Was there a pattern to the inputs that the model was incorrect about?
 
+The model performed well as it had an overall accuracy of 0.84. There are some occasions where the output was almost exactly the inverse of the predicted output as a general pattern.
+
 4. Would a 34 year old Female who makes 56000 a year buy an SUV according to the model? Remember to scale the data before running it through the model.
 
+would not buy
